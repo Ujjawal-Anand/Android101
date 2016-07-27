@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/miSearch"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        android:title="Search">
+    </item>
+
+    <item
+        android:id="@+id/miProfile"
+        android:icon="@drawable/icon_profile"
+        app:showAsAction="always"
+        android:title="Profile">
+    </item>
+    <item android:id="@+id/miSettings"
+    android:icon="@drawable/icon_settings"
+    android:title="Settings">
+</item>
+    <item android:id="@+id/miShare"
+        android:icon="@drawable/ic_menu_share_holo_light"
+        android:title="Share">
+    </item>
+    <item android:id="@+id/miAbout"
+        android:icon="@drawable/icon_about"
+        android:title="About">
+    </item>
+</menu>
